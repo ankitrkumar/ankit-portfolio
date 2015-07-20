@@ -118,7 +118,7 @@ iframe {
 .header {
   padding: 30px 0;
   background: #f5f5f5;
-  border-top: 10px solid #778492;
+  border-top: 55px solid #778492;
   background-color: #32383e;
   /*position:fixed;*/
   width:100%;
@@ -127,6 +127,9 @@ iframe {
 .header .btn {
   margin-top: 60px;
   font-weight: bold;
+}
+.container-fluid {
+background-color: #32383e;
 }
 .header .img {
     width:54px; /* you can use % */
