@@ -8,8 +8,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
-    <meta name="author" content="3rd Wave Media">    
+    <meta name="description" content="Ankit Kumar's portfolio page.">
+    <meta name="author" content="Ankit Kumar">    
     <link rel="shortcut icon" href="A-ico.png">  
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
@@ -50,8 +50,14 @@
                 <a href="#experience" onclick = $("#menu-close").click(); >Work Experience</a>
             </li>
             <li>
-                <a href="#projects" onclick = $("#menu-close").click(); >Projects</a>
+                <a href="#projects" onclick = $("#menu-close").click(); >Current Projects</a>
             </li>
+            <li>
+                <a href="#past" onclick = $("#menu-close").click(); >Past Projects</a>
+            </li>
+            <!-- <li>
+                <a href="mythoughts.html" onclick = $("#menu-close").click(); >Thoughts</a>
+            </li> -->
             <li>
                 <a href="mailto:me@kumarankit.com" onclick = $("#menu-close").click(); >Contact</a>
             </li>
@@ -74,7 +80,6 @@
                 </ul> 
             </div><!--//profile-->
         </div><!--//container-->
-        <div id = "about" ></div>
     </header><!--//header-->
       
     <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -98,6 +103,7 @@
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
+            <div id ="about">
                 <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
@@ -109,11 +115,10 @@
                         <h1 class= "text-center"><span class="glyphicon glyphicon-heart"></span> <i class="fa fa-coffee"></i></h1 ></p>
                         <p>I believe in learning, unlearning and relearning as much and as often as I can. I am driven to perfect my craft. I am a technology enthusiast, I love to build and explore anything mobile.</p><p> I have an interest in and am looking to work on an idea/project that brings together the core concepts of the internet of things, mobility and robotics.</p>
                         </div><!--//content-->
-                    <div id = "experience" ></div>
-
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-            
+            </div>
+            <div id = "experience" >    
                 <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Worked at...</h2>
@@ -127,10 +132,10 @@
                                 <p>Awarded a 5-star rating for the application built as an intern. Awarded the distinction of BuiltForBlackBerryTM for adhering to BlackBerry app design guidelines. Acquired knowledge of NDK used for developing apps for BlackBerry devices</p>
                             </div><!--//item--> 
                         </div><!--//content-->  
-                        <div id ="projects"></div>
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-
+            </div>
+            <div id ="projects">
                <section class="latest section">
                     <div class="section-inner">
                         <h2 class="heading">I   <span class="glyphicon glyphicon-heart"></span>   <span class="glyphicon glyphicon-chevron-left"></span>CODE<span class="glyphicon glyphicon-chevron-right"></span></i></h2>
@@ -204,7 +209,8 @@
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-                
+            </div>
+            <div id = "past">
                 <section class="projects section">
                     <div class="section-inner">
                         <h2 class="heading">Past Projects</h2>
@@ -256,7 +262,7 @@
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-                
+            </div>        
             </div><!--//primary-->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
                  <aside class="info aside section">
@@ -436,8 +442,6 @@
     <script type="text/javascript" src="assets/plugins/github-activity/dist/github-activity-0.1.1.min.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>            
-    <script type="text/javascript" src="assets/js/jquery.nav.js"></script>            
-    <script type="text/javascript" src="assets/js/jquey.scrollto.js"></script>            
       <!-- Custom Theme JavaScript -->
     <script>
     // Closes the sidebar menu
